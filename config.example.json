@@ -1,0 +1,7 @@
+{
+  "provider": {"kind": "mock", "path": "test/fixtures/available.json"},
+  "notification": "console",
+  "scheduleEnabled": false,
+  "mockAutoBook": false,
+  "authorization": null
+}

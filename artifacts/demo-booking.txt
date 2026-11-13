@@ -1,0 +1,14 @@
+MOCK/LOCAL ONLY: Beijing H-1B confirmed dates (Asia/Shanghai): 2026-12-07, 2026-12-31, 2027-01-01, 2027-01-08. Availability may change. Confirm and book manually: https://www.usvisascheduling.com/en-US/schedule/
+{"booking":"SIMULATED_ONLY_NO_REAL_APPOINTMENT","simulatedAppointment":{"id":"MOCK-Beijing-H1B-2026-12-07","date":"2026-12-07","location":"Beijing","visaType":"H-1B","status":"SIMULATED_ONLY_NO_REAL_APPOINTMENT"}}
+{"fixture":"available","status":"OK","fresh":["2026-12-07","2026-12-31","2027-01-01","2027-01-08"]}
+{"booking":"ALREADY_SIMULATED","simulatedAppointment":{"id":"MOCK-Beijing-H1B-2026-12-07","date":"2026-12-07","location":"Beijing","visaType":"H-1B","status":"SIMULATED_ONLY_NO_REAL_APPOINTMENT"}}
+{"fixture":"available","status":"OK","fresh":[]}
+{"booking":"ALREADY_SIMULATED","simulatedAppointment":{"id":"MOCK-Beijing-H1B-2026-12-07","date":"2026-12-07","location":"Beijing","visaType":"H-1B","status":"SIMULATED_ONLY_NO_REAL_APPOINTMENT"}}
+{"fixture":"unavailable","status":"OK","fresh":[]}
+{"booking":"ALREADY_SIMULATED","simulatedAppointment":{"id":"MOCK-Beijing-H1B-2026-12-07","date":"2026-12-07","location":"Beijing","visaType":"H-1B","status":"SIMULATED_ONLY_NO_REAL_APPOINTMENT"}}
+{"fixture":"failed","status":"PROVIDER_FAILED","fresh":[]}
+{"booking":"ALREADY_SIMULATED","simulatedAppointment":{"id":"MOCK-Beijing-H1B-2026-12-07","date":"2026-12-07","location":"Beijing","visaType":"H-1B","status":"SIMULATED_ONLY_NO_REAL_APPOINTMENT"}}
+{"fixture":"malformed","status":"INVALID_JSON","fresh":[]}
+MOCK/LOCAL ONLY: Beijing H-1B confirmed dates (Asia/Shanghai): 2026-12-07, 2026-12-31, 2027-01-01, 2027-01-08. Availability may change. Confirm and book manually: https://www.usvisascheduling.com/en-US/schedule/
+{"booking":"ALREADY_SIMULATED","simulatedAppointment":{"id":"MOCK-Beijing-H1B-2026-12-07","date":"2026-12-07","location":"Beijing","visaType":"H-1B","status":"SIMULATED_ONLY_NO_REAL_APPOINTMENT"}}
+{"fixture":"available","status":"OK","fresh":["2026-12-07","2026-12-31","2027-01-01","2027-01-08"]}

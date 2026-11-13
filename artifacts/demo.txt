@@ -1,0 +1,8 @@
+MOCK/LOCAL ONLY: Beijing H-1B confirmed dates (Asia/Shanghai): 2026-12-07, 2026-12-31, 2027-01-01, 2027-01-08. Availability may change. Confirm and book manually: https://www.usvisascheduling.com/en-US/schedule/
+{"fixture":"available","status":"OK","fresh":["2026-12-07","2026-12-31","2027-01-01","2027-01-08"]}
+{"fixture":"available","status":"OK","fresh":[]}
+{"fixture":"unavailable","status":"OK","fresh":[]}
+{"fixture":"failed","status":"PROVIDER_FAILED","fresh":[]}
+{"fixture":"malformed","status":"INVALID_JSON","fresh":[]}
+MOCK/LOCAL ONLY: Beijing H-1B confirmed dates (Asia/Shanghai): 2026-12-07, 2026-12-31, 2027-01-01, 2027-01-08. Availability may change. Confirm and book manually: https://www.usvisascheduling.com/en-US/schedule/
+{"fixture":"available","status":"OK","fresh":["2026-12-07","2026-12-31","2027-01-01","2027-01-08"]}

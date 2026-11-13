@@ -1,0 +1,84 @@
+
+> beijing-h1b-slot-monitor@1.0.0 test
+> node --test test/*.test.js
+
+✔ mock booking opt-in chooses earliest confirmed target; exactly one simulation (43.359076ms)
+✔ disabled, unconfirmed, failed and wrong-scope responses never book (1.592356ms)
+✔ authorized availability feed is never treated as booking authorization (0.428516ms)
+✔ simulation persisted across process restarts and cannot create second appointment (33.203171ms)
+✔ fixture available parses (47.179169ms)
+✔ fixture unavailable parses (1.703025ms)
+✔ fixture inferred parses (1.511215ms)
+✔ fixture empty parses (1.788738ms)
+✔ fixture failed fails closed (1.644635ms)
+✔ fixture malformed fails closed (2.156434ms)
+✔ inclusive target 2026-12-07 (0.525194ms)
+✔ inclusive target 2026-12-31 (0.797291ms)
+✔ inclusive target 2027-01-01 (0.626352ms)
+✔ inclusive target 2027-01-08 (0.662349ms)
+✔ outside target 2026-12-06 (0.825921ms)
+✔ outside target 2027-01-09 (0.224193ms)
+✔ outside target 2026-01-01 (0.296101ms)
+✔ outside target 2027-12-07 (0.086723ms)
+✔ invalid day 2026-02-29 (0.435947ms)
+✔ invalid day 2026-12-32 (0.099325ms)
+✔ invalid day 2027-01-00 (0.070599ms)
+✔ invalid day 2027-13-01 (0.5659ms)
+✔ invalid day 12/07/2026 (0.095812ms)
+✔ Beijing year boundary uses Asia/Shanghai, not host timezone (1.053333ms)
+✔ past Beijing date filtered (0.853029ms)
+✔ strict schema {} (0.520699ms)
+✔ strict schema {"schemaVersion":2} (0.440863ms)
+✔ strict schema {"status":"failed"} (0.575278ms)
+✔ strict schema {"location":"Shanghai"} (0.143954ms)
+✔ strict schema {"visaType":"B-2"} (0.11281ms)
+✔ strict schema {"complete":"true"} (0.307872ms)
+✔ strict schema {"appointments":{}} (0.49772ms)
+✔ strict schema {"observedAt":"2026-01-01T00:00:00Z"} (0.363309ms)
+✔ strict schema {"observedAt":"2027-01-01T00:00:00Z"} (0.630686ms)
+✔ strict schema {"token":"do-not-log"} (0.244031ms)
+✔ invalid or conflicting entries fail entire response (0.483551ms)
+✔ invalid or conflicting entries fail entire response (0.549549ms)
+✔ invalid or conflicting entries fail entire response (0.377561ms)
+✔ invalid or conflicting entries fail entire response (0.519514ms)
+✔ invalid or conflicting entries fail entire response (0.690691ms)
+✔ invalid or conflicting entries fail entire response (0.716329ms)
+✔ unknown JSON and HTML never mean empty (0.301552ms)
+✔ size limited (5.447329ms)
+✔ duplicate consistent dates dedup; timestamps normalized (1.399724ms)
+✔ confirmed only; inferred and unavailable never notify (0.828115ms)
+✔ appearance, repeat, disappearance, reappearance re-notifies (1.470047ms)
+✔ explicit unavailable resets even on partial snapshot (1.473869ms)
+✔ failures, malformed, partial and inferred snapshots preserve known presence (2.153963ms)
+✔ notification failures retry without marking delivered (3.557755ms)
+✔ out-of-order observations preserve state (0.258335ms)
+✔ config rejects portal credentials and arbitrary providers (0.323963ms)
+✔ authorization required, scoped, unexpired and permits 30 minutes (1.846362ms)
+✔ persistent 30 minute cadence, restart dedup and reappearance (67.308198ms)
+✔ failed reads consume cadence; no tight retry (6.040739ms)
+✔ concurrent check blocked (9.186994ms)
+✔ corrupt state fails closed (2.840551ms)
+✔ scheduler mock and disabled gates; valid schedule waits exactly 30 minutes (1.681691ms)
+✔ telegram sends only minimal message with protected transport (0.957161ms)
+✔ ntfy sends only minimal message with protected transport (0.29941ms)
+✔ transport errors never expose secret-bearing URL or response (0.469209ms)
+✔ notification credentials required (0.233648ms)
+✔ offline demo CLI reports reappearance and errors (146.20557ms)
+✔ invalid wall times rejected instead of rolling over (0.301136ms)
+✔ pending alert is not retried from inferred or absent partial data (2.166238ms)
+✔ after target end authorization cannot enable a scheduler (1.028071ms)
+✔ test phone push unmistakably labels simulated data (0.791814ms)
+✔ scheduler rechecks authorization on every cycle (4.820503ms)
+ℹ tests 67
+ℹ suites 0
+ℹ pass 67
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 712.103207
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

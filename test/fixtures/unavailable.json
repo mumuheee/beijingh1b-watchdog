@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "status": "ok",
+  "location": "Beijing",
+  "visaType": "H-1B",
+  "observedAt": "2026-11-13T00:00:00Z",
+  "complete": true,
+  "appointments": [
+    {
+      "date": "2026-12-07",
+      "status": "unavailable"
+    },
+    {
+      "date": "2026-12-31",
+      "status": "unavailable"
+    },
+    {
+      "date": "2027-01-01",
+      "status": "unavailable"
+    },
+    {
+      "date": "2027-01-08",
+      "status": "unavailable"
+    }
+  ]
+}

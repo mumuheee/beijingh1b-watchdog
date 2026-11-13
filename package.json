@@ -1,0 +1,9 @@
+{
+  "name": "beijing-h1b-slot-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {"test": "node --test test/*.test.js", "demo": "node src/cli.js demo"},
+  "description": "Offline-first Beijing H-1B monitoring; no portal automation"
+}
